@@ -20,3 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('celery_test.urls')),
 ]
+
+urlpatterns = [
+    path('test/', include(urlpatterns))
+]
