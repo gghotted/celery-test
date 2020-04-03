@@ -21,6 +21,6 @@ urlpatterns = [
     path('', include('celery_test.urls')),
 ]
 
-urlpatterns = [
-    path('test/', include(urlpatterns))
-]
+#urlpatterns = [
+#    path('test/', include(urlpatterns))
+#]

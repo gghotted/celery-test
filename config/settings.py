@@ -25,7 +25,7 @@ SECRET_KEY = 'd6n*%7h1+%vmto!-(83na*r598-n%fc_z894e#d3powz^ba@_9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['104.155.137.113']
+ALLOWED_HOSTS = ['test.parkgyoungin.com']
 
 # Application definition
 
